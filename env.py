@@ -3,13 +3,13 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "27383453")
-API_HASH = os.getenv("API_HASH", "4c246fb0c649477cc2e79b6a178ddfaa")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6918499458:AAFtXeIJ9sdXAuHk7tGAcrU5OTF1KYMZebk")
+API_ID = os.getenv("API_ID", "22657083")
+API_HASH = os.getenv("API_HASH", "d6186691704bd901bdab275ceaab88f3")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8371449862:AAEpx9I6SkNb64sIYwl-8euG6rVnTeV2iF0")
 SUDOERS = list(map(int, os.getenv("SUDOERS", "6762113050").split()))
-MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://SHASHANK:STRANGER@shashank.uj7lold.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = os.getenv("LOG_GROUP_ID", "-1002018556839")
-MUST_JOIN = os.getenv("MUST_JOIN", "SHIVANSH474")
+MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://ahad0181888:ahad0181888@cluster0.f9casz0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOG_GROUP_ID = os.getenv("LOG_GROUP_ID", "-1002750713715")
+MUST_JOIN = os.getenv("MUST_JOIN", "DEVELOPEDBYIVAN")
 DISABLED = os.getenv("DISABLED", "").split()
 
 if not API_ID:
